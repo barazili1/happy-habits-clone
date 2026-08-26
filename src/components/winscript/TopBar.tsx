@@ -1,4 +1,4 @@
-import logo from "@/assets/master-win-logo.png.asset.json";
+import logo from "@/assets/master-win-logo.png";
 
 export function TopBar() {
   return (

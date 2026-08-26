@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronLeft, UserRound } from "lucide-react";
-import logo from "@/assets/master-win-logo.png.asset.json";
+import logo from "@/assets/master-win-logo.png";
 
 export function GameShell({
   title,

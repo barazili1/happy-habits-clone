@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import logo from "@/assets/master-win-logo.png.asset.json";
+import logo from "@/assets/master-win-logo.png";
 
 export function SplashScreen({ onDone }: { onDone: () => void }) {
   useEffect(() => {
