@@ -38,7 +38,7 @@ export function SplashScreen({ onDone }: { onDone: () => void }) {
           className="relative grid h-28 w-28 place-items-center overflow-hidden rounded-full luxe-card"
         >
           <span className="sheen -left-1/3" />
-          <img src={logo.url} alt="MASTER WIN" width={112} height={112} className="absolute inset-0 h-full w-full rounded-full object-cover" />
+          <img src={logo} alt="MASTER WIN" width={112} height={112} className="absolute inset-0 h-full w-full rounded-full object-cover" />
         </motion.div>
       </div>
 

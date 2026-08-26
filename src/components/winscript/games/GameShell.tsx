@@ -43,7 +43,7 @@ export function GameShell({
             <span className="truncate text-sm font-black text-foreground">{userId || "—"}</span>
           </div>
           <img
-            src={logo.url}
+            src={logo}
             alt="MASTER WIN"
             width={32}
             height={32}
