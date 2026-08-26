@@ -5,7 +5,7 @@ export function TopBar() {
     <header className="sticky top-0 z-30 glass-panel border-x-0 border-t-0 border-b border-b-neon/30">
       <div className="mx-auto flex h-14 max-w-md items-center gap-3 px-4">
         <img
-          src={logo.url}
+          src={logo}
           alt="MASTER WIN"
           width={32}
           height={32}
