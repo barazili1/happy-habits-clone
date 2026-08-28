@@ -56,7 +56,7 @@ export function AppleGame({ userId, onBack }: { userId: string; onBack: () => vo
     <GameShell title="Apple of Fortune" userId={userId} onBack={onBack}>
       <div className="mt-6 overflow-hidden rounded-3xl p-3 luxe-card">
         <span className="luxe-hairline-top" />
-        <div className="grid gap-1.5">
+        <div dir="ltr" className="grid gap-1.5">
           {Array.from({ length: ROWS }).map((_, r) => {
             const rowIndex = ROWS - 1 - r; // 0 = أسفل الشبكة
             const row = grid?.[rowIndex];
