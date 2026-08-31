@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 type Win = { key: number; id: string; amount: number; platform: string; secs: number };
 
-const PLATFORM_NAMES = ["BIZBET", "LineBet"];
+const PLATFORM_NAMES = ["BIZBET", "Greenbet"];
 
 let counter = 0;
 function makeWin(): Win {
