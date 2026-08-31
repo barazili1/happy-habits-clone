@@ -38,8 +38,8 @@ const PLATFORM_LINKS: Record<string, { download: string }> = {
   bizbet: {
     download: "https://refpa83754.com/L?tag=d_5991942m_67005c_&site=5991942&ad=67005",
   },
-  linebet: {
-    download: "https://lb-aff.com/L?tag=d_5992800m_66803c_apk1&site=5992800&ad=66803",
+  greenbet: {
+    download: "https://refpa79184.com/L?tag=d_5969188m_132250c_&site=5969188&ad=132250",
   },
 };
 

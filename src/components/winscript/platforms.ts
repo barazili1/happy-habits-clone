@@ -1,21 +1,21 @@
 const bizbet =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_SHX7efEoJGTNOkFPVFyFdj1MQKfYEF6biEyL8jE_A&s=10";
-const linebet =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQNB9eSZrFRO4frwfFCQM2hFX7f2u5-ERn2w1wFK9dbg&s=10";
+const greenbet =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoEj5eP5tNE8iMZoLHE9i4q-JYLMiLmHaIMKatrmBePA&s=10";
 import gameApple from "@/assets/game-apple.jpg";
 import gameCrash from "@/assets/game-crash.jpg";
 import gameGems from "@/assets/game-gems.jpg";
 import gameWildWest from "@/assets/game-wildwest.jpg";
 
 export type Platform = {
-  id: "bizbet" | "linebet";
+  id: "bizbet" | "greenbet";
   name: string;
   image: string;
 };
 
 export const PLATFORMS: Platform[] = [
   { id: "bizbet", name: "BIZBET", image: bizbet },
-  { id: "linebet", name: "LineBet", image: linebet },
+  { id: "greenbet", name: "Greenbet", image: greenbet },
 ];
 
 export type GameId = "apple" | "gems-mines" | "crash" | "wild-west";
